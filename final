@@ -64,7 +64,7 @@ void loop()
 
     digitalWrite(14, HIGH);
     
-    if(voltage < 1.7) {
+    if(voltage < 1.5) {
       
       stopMotor();
       return;
@@ -74,7 +74,7 @@ void loop()
     if (!client) return;
     command = checkClient();
 
-    if(voltage > 1.7) {
+    if(voltage > 1.5) {
       
         if (command == "forward" || command == "go%20forward"){
           
