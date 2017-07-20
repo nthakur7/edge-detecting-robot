@@ -18,8 +18,8 @@ String  command =""; // Command received from Android device
 
 
 // Set Motor Control Pins
-int rightMotor2 = 13;    // D7 - right Motor -
-int rightMotor1 = 15;    // D8 - right Motor +
+int rightMotor2 = 12;    // D7 - right Motor -
+int rightMotor1 = 13;    // D8 - right Motor +
 int leftMotor2 = 0;    // D3 - left Motor - 
 int leftMotor1 = 2;    // D4 - left Motor +
 
